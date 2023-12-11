@@ -1,0 +1,57 @@
+[
+  {
+    "name": "LegacyFreeCollectModule",
+    "address": "0x23b9467334bEb345aAa6fd1545538F3d54436e96",
+    "blockExplorerLink": "https://polygonscan.com/address/0x23b9467334bEb345aAa6fd1545538F3d54436e96#code"
+  },
+  {
+    "name": "LegacyMultirecipientFeeCollectModule",
+    "address": "0xfa9dA21D0A18C7B7dE4566481c1e8952371F880a",
+    "blockExplorerLink": "https://polygonscan.com/address/0xfa9dA21D0A18C7B7dE4566481c1e8952371F880a#code"
+  },
+  {
+    "name": "LegacySimpleCollectModule",
+    "address": "0x54325d507eD1b3776c146700eFF61a98B45AeC76",
+    "blockExplorerLink": "https://polygonscan.com/address/0x54325d507eD1b3776c146700eFF61a98B45AeC76#code"
+  },
+  {
+    "name": "LegacyFeeCollectModule",
+    "address": "0x1292E6dF9a4697DAAfDDBD61D5a7545A634af33d",
+    "blockExplorerLink": "https://polygonscan.com/address/0x1292E6dF9a4697DAAfDDBD61D5a7545A634af33d#code"
+  },
+  {
+    "name": "LegacyLimitedFeeCollectModule",
+    "address": "0xEF13EFa565FB29Cd55ECf3De2beb6c69bD988212",
+    "blockExplorerLink": "https://polygonscan.com/address/0xEF13EFa565FB29Cd55ECf3De2beb6c69bD988212#code"
+  },
+  {
+    "name": "LegacyTimedFeeCollectModule",
+    "address": "0x1292E6dF9a4697DAAfDDBD61D5a7545A634af33d",
+    "blockExplorerLink": "https://polygonscan.com/address/0x1292E6dF9a4697DAAfDDBD61D5a7545A634af33d#code"
+  },
+  {
+    "name": "LegacyLimitedTimedFeeCollectModule",
+    "address": "0x7B94f57652cC1e5631532904A4A038435694636b",
+    "blockExplorerLink": "https://polygonscan.com/address/0x7B94f57652cC1e5631532904A4A038435694636b#code"
+  },
+  {
+    "name": "LegacyRevertCollectModule",
+    "address": "0x1292E6dF9a4697DAAfDDBD61D5a7545A634af33d",
+    "blockExplorerLink": "https://polygonscan.com/address/0x1292E6dF9a4697DAAfDDBD61D5a7545A634af33d#code"
+  },
+  {
+    "name": "LegacyFeeCollectModule",
+    "address": "0xa31FF85E840ED117E172BC9Ad89E55128A999205",
+    "blockExplorerLink": "https://polygonscan.com/address/0xa31FF85E840ED117E172BC9Ad89E55128A999205#code"
+  },
+  {
+    "name": "SimpleCollectOpenActionModule",
+    "address": "0x060f5448ae8aCF0Bc06D040400c6A89F45b488bb",
+    "blockExplorerLink": "https://polygonscan.com/address/0x060f5448ae8aCF0Bc06D040400c6A89F45b488bb#code"
+  },
+  {
+    "name": "MultirecipientFeeCollectOpenActionModule",
+    "address": "0x50f1D8779078c790b82dE5Aa8d72A841e1CBBbE1",
+    "blockExplorerLink": "https://polygonscan.com/address/0x50f1D8779078c790b82dE5Aa8d72A841e1CBBbE1#code"
+  }
+]
