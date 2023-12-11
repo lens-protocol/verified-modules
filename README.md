@@ -11,12 +11,14 @@ The json structure is:
 
 - `name` - The name of your module for easy scanning of folder
 - `address` - The address of the module
+- `usesCurrencies` - If the module uses currencies so it does paid actions, this is the difference from signless or not
 - `blockExplorerLink` - The link to the block explorer for the module
 
 ```json
 {
   "name": "SimpleCollectOpenActionModule",
   "address": "0x060f5448ae8aCF0Bc06D040400c6A89F45b488bb",
+  "usesCurrencies": true,
   "blockExplorerLink": "https://polygonscan.com/address/0x060f5448ae8aCF0Bc06D040400c6A89F45b488bb#code"
 }
 ```
