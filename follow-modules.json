@@ -8,5 +8,10 @@
     "name": "RevertFollowModule",
     "address": "0x4E2D0157464501C98E781491a9dbC99c2F3fD90f",
     "blockExplorerLink": "https://polygonscan.com/address/0x4E2D0157464501C98E781491a9dbC99c2F3fD90f#code"
+  },
+  {
+    "name": "TestFollowModule",
+    "address": "0x4E2D0157464501C98E781491a9dbC99c2F3fD90f",
+    "blockExplorerLink": "https://polygonscan.com/address/0x4E2D0157464501C98E781491a9dbC99c2F3fD90f#code"
   }
 ]
