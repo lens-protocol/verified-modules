@@ -4,8 +4,8 @@ const axios = require("axios");
 const SECRET = process.env.SECRET ?? "";
 const API_URL = "https://api-mumbai.lens-v2.crtlkey.com";
 const mutation = `
-                mutation InternalSetModuleVerified($request: InternalSetModuleVerifiedRequest!) {
-                  internalSetModuleVerified(request: $request)
+               mutation InternalUpdateModuleOptions($request: InternalUpdateModuleOptionsRequest!) {
+                  internalUpdateModuleOptions(request: $request)
                 }
               `;
 
@@ -37,6 +37,7 @@ for (const file of files) {
         secret: SECRET,
         t: file.type,
         v: true,
+        lma: !module.requiresUserFunds,
       },
     };
 
@@ -72,7 +73,7 @@ Promise.all(promises).then(() => {
   const removedModules = {};
   for (const key in lastSyncedFileData) {
     removedModules[key] = lastSyncedFileData[key].filter(
-      (item) => !lastSynced[key].includes(item)
+      (item) => !lastSynced[key]?.includes(item)
     );
   }
 
@@ -93,6 +94,7 @@ Promise.all(promises).then(() => {
               secret: SECRET,
               t: moduleType,
               v: false,
+              lma: false,
             },
           },
         })
