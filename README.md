@@ -11,7 +11,7 @@ The JSON structure is:
 
 - `name` - The name of your module
 - `address` - The address of the module
-- `requiresUserFunds` - If the module requires user funds to be used, for example, you're paying to mint an NFT or pay to read more of an article. If this is false, it means signless would work on your module throughout the API. If it is true, then the module is still sponsored for gasless, but it would require a signature from the user to use it due to funds changing hands.
+- `requiresUserFunds` - If the module requires user funds to be used, for example, you're paying to mint an NFT or pay to read more of an article. If this is true, it means signless would work on your module throughout the API. If it is false, then the module is still sponsored for gasless, but it would require a signature from the user to use it due to funds changing hands.
 - `blockExplorerLink` - The link to the block explorer for the module
 
 ```json
