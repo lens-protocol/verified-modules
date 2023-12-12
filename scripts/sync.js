@@ -67,9 +67,9 @@ for (const file of files) {
 }
 
 Promise.all(promises).then(() => {
-  console.log("All modules verified.");
+  console.log("✅ All modules verified.");
 
-  console.log("Checking removed modules...");
+  console.log("⌛ Checking removed modules...");
   const removedModules = {};
   for (const key in lastSyncedFileData) {
     removedModules[key] = lastSyncedFileData[key].filter(
@@ -77,7 +77,7 @@ Promise.all(promises).then(() => {
     );
   }
 
-  console.log("🚀 ~ removedModules:", removedModules);
+  console.log("➡︎ Removed Modules -", removedModules);
   for (const type in removedModules) {
     for (const moduleKey of removedModules[type]) {
       console.log("Unverifing module:", moduleKey);
@@ -109,7 +109,9 @@ Promise.all(promises).then(() => {
         });
     }
   }
-  console.log("Unverified removed modules.");
+  if (Object.keys(removedModules).length === 0) {
+    console.log("🚮 Unverified removed modules.");
+  }
 
   fs.writeFileSync(
     "scripts/last-synced.json",
