@@ -2,7 +2,7 @@ const fs = require("fs");
 const axios = require("axios");
 
 const SECRET = process.env.SECRET ?? "";
-const API_URL = "https://api-mumbai.lens-v2.crtlkey.com";
+const API_URL = "https://api-v2.lens.dev";
 const mutation = `
                mutation InternalUpdateModuleOptions($request: InternalUpdateModuleOptionsRequest!) {
                   internalUpdateModuleOptions(request: $request)
