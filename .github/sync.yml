@@ -1,6 +1,12 @@
 name: Sync Modules
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    branches:
+      - main
 
 jobs:
   check-modules:
