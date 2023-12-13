@@ -2,6 +2,11 @@ const fs = require("fs");
 const axios = require("axios");
 
 const SECRET = process.env.SECRET ?? "";
+
+if (!SECRET.length) {
+  throw new Error("SECRET is required to run this script");
+}
+
 const API_URL = "https://api-v2.lens.dev";
 const mutation = `
                mutation InternalUpdateModuleOptions($request: InternalUpdateModuleOptionsRequest!) {
