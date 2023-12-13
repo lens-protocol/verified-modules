@@ -1,5 +1,7 @@
 # Lens verified modules
 
+> Learn more about Module Verification [here](https://docs.lens.xyz/docs/module-verification) and the metadata standard [here](https://docs.lens.xyz/docs/integrate-modules).
+
 This repo contains a list of verified modules for Lens. This includes `open actions`, `follow modules` and `reference modules`. Anyone can do a PR to get their modules verified and listed here. Once it is on here, we classify it as safe to use. The verified modules will be able to be used in the lens API for gasless actions; note all modules are indexed and broken back; this is just a second layer of security.
 
 ## How to get your module verified
