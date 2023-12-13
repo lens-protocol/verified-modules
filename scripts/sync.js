@@ -100,7 +100,7 @@ Promise.all(promises).then(() => {
         })
         .then((response) => {
           console.log(
-            `Module unverified: ${moduleKey}, Response:`,
+            `🚮 Module unverified: ${moduleKey}, Response:`,
             response.data
           );
         })
@@ -108,9 +108,6 @@ Promise.all(promises).then(() => {
           console.error(`Error unverify module: ${moduleKey}`, error);
         });
     }
-  }
-  if (Object.keys(removedModules).length === 0) {
-    console.log("🚮 Unverified removed modules.");
   }
 
   fs.writeFileSync(
