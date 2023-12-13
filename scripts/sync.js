@@ -20,7 +20,6 @@ const files = [
   { filename: "reference-modules.json", type: "REFERENCE" },
 ];
 
-const promises = [];
 const lastSyncedFileReadData = fs.readFileSync(
   "scripts/last-synced.json",
   "utf8"
@@ -28,6 +27,7 @@ const lastSyncedFileReadData = fs.readFileSync(
 const lastSyncedFileData = JSON.parse(lastSyncedFileReadData);
 
 let lastSynced = {};
+const verifyPromises = [];
 
 for (const file of files) {
   const data = fs.readFileSync(file.filename, "utf8");
@@ -67,11 +67,11 @@ for (const file of files) {
         console.error(`Error verify module: ${module.name}`, error);
       });
 
-    promises.push(promise);
+    verifyPromises.push(promise);
   }
 }
 
-Promise.all(promises).then(() => {
+Promise.all(verifyPromises).then(() => {
   console.log("✅ All modules verified.");
 
   console.log("⌛ Checking removed modules...");
