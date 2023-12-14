@@ -89,6 +89,9 @@ for (const file of files) {
 }
 
 Promise.all(verifyPromises).then(() => {
+  if (verifyPromises.length === 0) {
+    return console.log("✅ Everything is up to date.")
+  }
   console.log("✅ All modules verified.");
 
   console.log("⌛ Checking removed modules...");
