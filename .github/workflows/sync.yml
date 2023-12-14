@@ -30,6 +30,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          git status
           git add scripts/last-synced.json
           git diff --quiet || git commit -m "ci: update last-synced.json"
           git push --force origin master
