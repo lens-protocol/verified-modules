@@ -25,4 +25,3 @@ jobs:
 
       - name: Run Sync Script
         run: node scripts/sync.js
-        shell: node
