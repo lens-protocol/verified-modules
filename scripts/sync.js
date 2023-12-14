@@ -1,5 +1,6 @@
 const fs = require("fs");
 const axios = require("axios");
+const crypto = require("crypto");
 
 const SECRET = process.env.SECRET ?? "";
 
@@ -26,8 +27,23 @@ const lastSyncedFileReadData = fs.readFileSync(
 );
 const lastSyncedFileData = JSON.parse(lastSyncedFileReadData);
 
-let lastSynced = {};
+let currentSyncData = {};
 const verifyPromises = [];
+
+function hashObject(obj) {
+  const str = JSON.stringify(obj);
+  return crypto.createHash("md5").update(str).digest("hex");
+}
+
+function updateLastSynced(file, moduleId, currentHash) {
+  if (currentSyncData[file.type]) {
+    if (currentSyncData[file.type][moduleId]) return;
+    currentSyncData[file.type][moduleId] = currentHash;
+  } else {
+    currentSyncData[file.type] = { [moduleId]: currentHash };
+  }
+  return;
+}
 
 for (const file of files) {
   const data = fs.readFileSync(file.filename, "utf8");
@@ -35,6 +51,12 @@ for (const file of files) {
 
   for (const module of modules) {
     const moduleId = `${file.type}-${module.name}-${module.address}`;
+    const currentHash = hashObject(module);
+
+    if (lastSyncedFileData[file.type]?.[moduleId]) {
+      updateLastSynced(file, moduleId, currentHash);
+      if (lastSyncedFileData[file.type][moduleId] === currentHash) continue;
+    }
 
     const variables = {
       request: {
@@ -56,12 +78,7 @@ for (const file of files) {
           `Module Verified: ${module.name}, Response:`,
           response.data
         );
-        if (lastSynced[file.type]) {
-          if (lastSynced[file.type].includes(moduleId)) return;
-          lastSynced[file.type].push(moduleId);
-        } else {
-          lastSynced[file.type] = [moduleId];
-        }
+        updateLastSynced(file, moduleId, currentHash);
       })
       .catch((error) => {
         console.error(`Error verify module: ${module.name}`, error);
@@ -76,19 +93,28 @@ Promise.all(verifyPromises).then(() => {
 
   console.log("⌛ Checking removed modules...");
   const removedModules = {};
+
   for (const key in lastSyncedFileData) {
-    removedModules[key] = lastSyncedFileData[key].filter(
-      (item) => !lastSynced[key]?.includes(item)
-    );
+    if (currentSyncData.hasOwnProperty(key)) {
+      removedModules[key] = {};
+      for (const moduleId in lastSyncedFileData[key]) {
+        if (!currentSyncData[key].hasOwnProperty(moduleId)) {
+          // If the moduleId doesn't exist in currentSyncData, it's considered missing
+          removedModules[key][moduleId] = lastSyncedFileData[key][moduleId];
+        }
+      }
+    } else {
+      removedModules[key] = lastSyncedFileData[key];
+    }
   }
 
   console.log("➡︎ Removed Modules -", removedModules);
   for (const type in removedModules) {
-    for (const moduleKey of removedModules[type]) {
-      console.log("Unverifing module:", moduleKey);
+    for (const moduleId in removedModules[type]) {
+      console.log("Unverifing module:", moduleId);
 
-      const moduleType = moduleKey.split("-")[0];
-      const moduleAddress = moduleKey.split("-")[2];
+      const moduleType = moduleId.split("-")[0];
+      const moduleAddress = moduleId.split("-")[2];
 
       axios
         .post(API_URL, {
@@ -105,18 +131,18 @@ Promise.all(verifyPromises).then(() => {
         })
         .then((response) => {
           console.log(
-            `🚮 Module unverified: ${moduleKey}, Response:`,
+            `🚮 Module unverified: ${moduleId}, Response:`,
             response.data
           );
         })
         .catch((error) => {
-          console.error(`Error unverify module: ${moduleKey}`, error);
+          console.error(`Error unverify module: ${moduleId}`, error);
         });
     }
   }
 
   fs.writeFileSync(
     "scripts/last-synced.json",
-    JSON.stringify(lastSynced, null, 2)
+    JSON.stringify(currentSyncData, null, 2)
   );
 });
