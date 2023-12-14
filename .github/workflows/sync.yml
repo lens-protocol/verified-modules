@@ -25,3 +25,5 @@ jobs:
 
       - name: Run Sync Script
         run: node scripts/sync.js
+        env:
+          SECRET: ${{ secrets.SECRET }}
