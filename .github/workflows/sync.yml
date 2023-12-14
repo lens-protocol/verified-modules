@@ -30,6 +30,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
           git add scripts/last-synced.json
           git diff --staged --quiet || git commit -m "ci: update last-synced.json"
           git push --force origin master
