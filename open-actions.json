@@ -64,5 +64,11 @@
     "address": "0x50f1D8779078c790b82dE5Aa8d72A841e1CBBbE1",
     "requiresUserFunds": true,
     "blockExplorerLink": "https://polygonscan.com/address/0x50f1D8779078c790b82dE5Aa8d72A841e1CBBbE1#code"
+  },
+  {
+    "name": "ZoraLzMintActionV1",
+    "address": "0x5f377e3e9BE56Ff72588323Df6a4ecd5cEedc56A",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x5f377e3e9BE56Ff72588323Df6a4ecd5cEedc56A#code"
   }
 ]
