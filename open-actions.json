@@ -70,5 +70,11 @@
     "address": "0x5f377e3e9BE56Ff72588323Df6a4ecd5cEedc56A",
     "requiresUserFunds": true,
     "blockExplorerLink": "https://polygonscan.com/address/0x5f377e3e9BE56Ff72588323Df6a4ecd5cEedc56A#code"
+  },
+  {
+    "name": "DecentOpenAction",
+    "address": "0xA9d72bCAd216b1F05d7D60b46Fd8dC01D501257a",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0xA9d72bCAd216b1F05d7D60b46Fd8dC01D501257a#code"
   }
 ]
