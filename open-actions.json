@@ -76,5 +76,11 @@
     "address": "0x99Cd5A6e51C85CCc63BeC61A177003A551953628",
     "requiresUserFunds": true,
     "blockExplorerLink": "https://polygonscan.com/address/0x99Cd5A6e51C85CCc63BeC61A177003A551953628#code"
+  },
+  {
+    "name": "RaveShareMintOAV0",
+    "address": "0x084E647afbd4E49B6131F0255bAAb0B426dA9eC6",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x084E647afbd4E49B6131F0255bAAb0B426dA9eC6#code"
   }
 ]
