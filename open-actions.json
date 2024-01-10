@@ -82,5 +82,11 @@
     "address": "0x410688fc60028c805bdf8592a6504a0096927911",
     "requiresUserFunds": true,
     "blockExplorerLink": "https://polygonscan.com/address/0x410688fc60028c805bdf8592a6504a0096927911#code"
+  },
+  {
+    "name": "TipActionModule",
+    "address": "0x22cb67432C101a9b6fE0F9ab542c8ADD5DD48153",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x22cb67432C101a9b6fE0F9ab542c8ADD5DD48153#code"
   }
 ]
