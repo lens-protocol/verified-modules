@@ -90,7 +90,7 @@
     "blockExplorerLink": "https://polygonscan.com/address/0x22cb67432C101a9b6fE0F9ab542c8ADD5DD48153#code"
   },
   {
-    "name": "SimpleCollectionMint",
+    "name": "SimpleCollectionMintAction",
     "address": "0x55991a42e8FEb9DFAC9Fcc172f133D36AC2282A2",
     "requiresUserFunds": true,
     "blockExplorerLink": "https://polygonscan.com/address/0x55991a42e8FEb9DFAC9Fcc172f133D36AC2282A2#code"
