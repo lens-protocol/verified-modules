@@ -94,5 +94,11 @@
     "address": "0x55991a42e8FEb9DFAC9Fcc172f133D36AC2282A2",
     "requiresUserFunds": true,
     "blockExplorerLink": "https://polygonscan.com/address/0x55991a42e8FEb9DFAC9Fcc172f133D36AC2282A2#code"
+  },
+  {
+    "name": "RewardEngagementAction",
+    "address": "0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72",
+    "requiresUserFunds": false,
+    "blockExplorerLink": "https://polygonscan.com/address/0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72#code"
   }
 ]
