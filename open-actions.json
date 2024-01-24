@@ -100,5 +100,11 @@
     "address": "0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72",
     "requiresUserFunds": false,
     "blockExplorerLink": "https://polygonscan.com/address/0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72#code"
+  },
+  {
+    "name": "PublicationBountyAction",
+    "address": "0x3E1af12A47bbfA1C659376fe26003A3A1689e2AF",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x3E1af12A47bbfA1C659376fe26003A3A1689e2AF#code"
   }
 ]
