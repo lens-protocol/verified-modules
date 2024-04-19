@@ -72,12 +72,6 @@
     "blockExplorerLink": "https://polygonscan.com/address/0x5f377e3e9BE56Ff72588323Df6a4ecd5cEedc56A#code"
   },
   {
-    "name": "DecentOpenAction",
-    "address": "0x99Cd5A6e51C85CCc63BeC61A177003A551953628",
-    "requiresUserFunds": true,
-    "blockExplorerLink": "https://polygonscan.com/address/0x99Cd5A6e51C85CCc63BeC61A177003A551953628#code"
-  },
-  {
     "name": "RaveShareMintOAV0",
     "address": "0x410688fc60028c805bdf8592a6504a0096927911",
     "requiresUserFunds": true,
@@ -100,5 +94,11 @@
     "address": "0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72",
     "requiresUserFunds": false,
     "blockExplorerLink": "https://polygonscan.com/address/0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72#code"
+  },
+  {
+    "name": "DecentOpenAction",
+    "address": "0x2357a69BAF2584cf25A3B9bAA2c7eE6063cb8B40",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x2357a69BAF2584cf25A3B9bAA2c7eE6063cb8B40#code"
   }
 ]
