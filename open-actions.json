@@ -100,5 +100,11 @@
     "address": "0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72",
     "requiresUserFunds": false,
     "blockExplorerLink": "https://polygonscan.com/address/0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72#code"
+  },
+  {
+    "name": "EasPollActionModule",
+    "address": "0x3d06AA6ca4FC7eE0D5581B85CB52CA7714175e43",
+    "requiresUserFunds": false,
+    "blockExplorerLink": "https://polygonscan.com/address/0x3d06AA6ca4FC7eE0D5581B85CB52CA7714175e43#code"
   }
 ]
