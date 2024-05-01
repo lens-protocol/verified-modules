@@ -101,6 +101,7 @@
     "requiresUserFunds": true,
     "blockExplorerLink": "https://polygonscan.com/address/0x1525B2a2093E700e17E2749536237C01fE4B4e20#code"
   },
+  {
     "name": "EasPollActionModule",
     "address": "0x3d06AA6ca4FC7eE0D5581B85CB52CA7714175e43",
     "requiresUserFunds": false,
