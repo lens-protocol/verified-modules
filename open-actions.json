@@ -106,5 +106,11 @@
     "address": "0x3d06AA6ca4FC7eE0D5581B85CB52CA7714175e43",
     "requiresUserFunds": false,
     "blockExplorerLink": "https://polygonscan.com/address/0x3d06AA6ca4FC7eE0D5581B85CB52CA7714175e43#code"
+  },
+  {
+    "name": "AuctionCollectAction",
+    "address": "0x100f9d81e1eE42B11b299867306Ad9Ed654Ef9CF",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x100f9d81e1eE42B11b299867306Ad9Ed654Ef9CF#code"
   }
 ]
