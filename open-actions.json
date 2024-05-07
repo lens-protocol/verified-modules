@@ -72,12 +72,6 @@
     "blockExplorerLink": "https://polygonscan.com/address/0x5f377e3e9BE56Ff72588323Df6a4ecd5cEedc56A#code"
   },
   {
-    "name": "DecentOpenAction",
-    "address": "0x99Cd5A6e51C85CCc63BeC61A177003A551953628",
-    "requiresUserFunds": true,
-    "blockExplorerLink": "https://polygonscan.com/address/0x99Cd5A6e51C85CCc63BeC61A177003A551953628#code"
-  },
-  {
     "name": "RaveShareMintOAV0",
     "address": "0x410688fc60028c805bdf8592a6504a0096927911",
     "requiresUserFunds": true,
@@ -101,10 +95,22 @@
     "requiresUserFunds": false,
     "blockExplorerLink": "https://polygonscan.com/address/0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72#code"
   },
-  {
+  { 
     "name": "PublicationBountyAction",
     "address": "0x3E1af12A47bbfA1C659376fe26003A3A1689e2AF",
     "requiresUserFunds": true,
     "blockExplorerLink": "https://polygonscan.com/address/0x3E1af12A47bbfA1C659376fe26003A3A1689e2AF#code"
+  },
+  {
+    "name": "DecentOpenAction",
+    "address": "0x1525B2a2093E700e17E2749536237C01fE4B4e20",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x1525B2a2093E700e17E2749536237C01fE4B4e20#code"
+  },
+  {
+    "name": "EasPollActionModule",
+    "address": "0x3d06AA6ca4FC7eE0D5581B85CB52CA7714175e43",
+    "requiresUserFunds": false,
+    "blockExplorerLink": "https://polygonscan.com/address/0x3d06AA6ca4FC7eE0D5581B85CB52CA7714175e43#code"
   }
 ]
