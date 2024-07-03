@@ -118,5 +118,11 @@
     "address": "0x857b5e09d54AD26580297C02e4596537a2d3E329",
     "requiresUserFunds": true,
     "blockExplorerLink": "https://polygonscan.com/address/0x857b5e09d54AD26580297C02e4596537a2d3E329#code"
+  },
+  {
+    "name": "ScoreOpenAction",
+    "address": "0xA718128A0AaB62E5137248B9875e690a3B493157",
+    "requiresUserFunds": false,
+    "blockExplorerLink": "https://polygonscan.com/address/0xA718128A0AaB62E5137248B9875e690a3B493157#code"
   }
 ]
