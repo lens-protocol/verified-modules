@@ -121,8 +121,8 @@
   },
   {
     "name": "ScoreOpenAction",
-    "address": "0xA718128A0AaB62E5137248B9875e690a3B493157",
+    "address": "0x98ea2bb475259bA9731c07b6Cc0421817495A68a",
     "requiresUserFunds": false,
-    "blockExplorerLink": "https://polygonscan.com/address/0xA718128A0AaB62E5137248B9875e690a3B493157#code"
+    "blockExplorerLink": "https://polygonscan.com/address/0x98ea2bb475259bA9731c07b6Cc0421817495A68a#code"
   }
 ]
