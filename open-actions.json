@@ -95,11 +95,17 @@
     "requiresUserFunds": false,
     "blockExplorerLink": "https://polygonscan.com/address/0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72#code"
   },
+  { 
+    "name": "PublicationBountyAction",
+    "address": "0x3E1af12A47bbfA1C659376fe26003A3A1689e2AF",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x3E1af12A47bbfA1C659376fe26003A3A1689e2AF#code"
+  },
   {
     "name": "DecentOpenAction",
-    "address": "0x1525B2a2093E700e17E2749536237C01fE4B4e20",
+    "address": "0x028f6aeE3CF9e1cA725f4C47d9460801b6c7508A",
     "requiresUserFunds": true,
-    "blockExplorerLink": "https://polygonscan.com/address/0x1525B2a2093E700e17E2749536237C01fE4B4e20#code"
+    "blockExplorerLink": "https://polygonscan.com/address/0x028f6aeE3CF9e1cA725f4C47d9460801b6c7508A#code"
   },
   {
     "name": "EasPollActionModule",
@@ -108,6 +114,19 @@
     "blockExplorerLink": "https://polygonscan.com/address/0x3d06AA6ca4FC7eE0D5581B85CB52CA7714175e43#code"
   },
   {
+    "name": "AuctionCollectAction",
+    "address": "0x857b5e09d54AD26580297C02e4596537a2d3E329",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x857b5e09d54AD26580297C02e4596537a2d3E329#code"
+  },
+  {
+    "name": "ScoreOpenAction",
+    "address": "0x98ea2bb475259bA9731c07b6Cc0421817495A68a",
+    "requiresUserFunds": false,
+    "blockExplorerLink": "https://polygonscan.com/address/0x98ea2bb475259bA9731c07b6Cc0421817495A68a#code"
+  },
+  {
+    
     "name": "RentableSpaceAction",
     "address": "0x6f7B96f99a3904581470002cEE1c5182d8743f34",
     "requiresUserFunds": true,
