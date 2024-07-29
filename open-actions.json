@@ -126,9 +126,9 @@
     "blockExplorerLink": "https://polygonscan.com/address/0x98ea2bb475259bA9731c07b6Cc0421817495A68a#code"
   },
   {
-    "name": "MadMoneyClubsAction",
-    "address": "0x1fC946A7e640CD8FAdDE304f556f93E476C79814",
+    "name": "MoneyClubsAction",
+    "address": "0x4027fdA8Da16D53c49F7AE8986bF23942C233B3e",
     "requiresUserFunds": true,
-    "blockExplorerLink": "https://polygonscan.com/address/0x1fC946A7e640CD8FAdDE304f556f93E476C79814#code"
+    "blockExplorerLink": "https://polygonscan.com/address/0x4027fdA8Da16D53c49F7AE8986bF23942C233B3e#code"
   }
 ]
