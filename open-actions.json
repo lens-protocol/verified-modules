@@ -127,8 +127,8 @@
   },
   {
     "name": "MoneyClubsAction",
-    "address": "0xAfcec6f07d268F2c379406339Aa90E665448D727",
+    "address": "0x3Cff328f345D6eA7eedBbaF2e4c786B0e7BcA144",
     "requiresUserFunds": true,
-    "blockExplorerLink": "https://polygonscan.com/address/0xAfcec6f07d268F2c379406339Aa90E665448D727#code"
+    "blockExplorerLink": "https://polygonscan.com/address/0x3Cff328f345D6eA7eedBbaF2e4c786B0e7BcA144#code"
   }
 ]
