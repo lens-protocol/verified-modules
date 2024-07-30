@@ -95,7 +95,7 @@
     "requiresUserFunds": false,
     "blockExplorerLink": "https://polygonscan.com/address/0xDA7F4679312Ab7Dc9B4A985564a391c14Ef45A72#code"
   },
-  { 
+  {
     "name": "PublicationBountyAction",
     "address": "0x3E1af12A47bbfA1C659376fe26003A3A1689e2AF",
     "requiresUserFunds": true,
@@ -124,5 +124,11 @@
     "address": "0x98ea2bb475259bA9731c07b6Cc0421817495A68a",
     "requiresUserFunds": false,
     "blockExplorerLink": "https://polygonscan.com/address/0x98ea2bb475259bA9731c07b6Cc0421817495A68a#code"
+  },
+  {
+    "name": "MoneyClubsAction",
+    "address": "0x3Cff328f345D6eA7eedBbaF2e4c786B0e7BcA144",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x3Cff328f345D6eA7eedBbaF2e4c786B0e7BcA144#code"
   }
 ]
