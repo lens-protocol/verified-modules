@@ -115,9 +115,9 @@
   },
   {
     "name": "AuctionCollectAction",
-    "address": "0x857b5e09d54AD26580297C02e4596537a2d3E329",
+    "address": "0x57bCA94DD71A03Fb2A10Bb6aC64e151AA102ff62",
     "requiresUserFunds": true,
-    "blockExplorerLink": "https://polygonscan.com/address/0x857b5e09d54AD26580297C02e4596537a2d3E329#code"
+    "blockExplorerLink": "https://polygonscan.com/address/0x57bCA94DD71A03Fb2A10Bb6aC64e151AA102ff62#code"
   },
   {
     "name": "ScoreOpenAction",
