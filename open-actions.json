@@ -124,5 +124,12 @@
     "address": "0x98ea2bb475259bA9731c07b6Cc0421817495A68a",
     "requiresUserFunds": false,
     "blockExplorerLink": "https://polygonscan.com/address/0x98ea2bb475259bA9731c07b6Cc0421817495A68a#code"
+  },
+  {
+    
+    "name": "RentableSpaceAction",
+    "address": "0x6f7B96f99a3904581470002cEE1c5182d8743f34",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x6f7b96f99a3904581470002cee1c5182d8743f34#code"
   }
 ]
