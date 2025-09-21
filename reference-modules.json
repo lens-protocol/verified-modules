@@ -16,5 +16,11 @@
     "address": "0x19F8980aF29207bbd7A6D0aD0858d59bd11d4647",
     "requiresUserFunds": false,
     "blockExplorerLink": "https://polygonscan.com/address/0x19F8980aF29207bbd7A6D0aD0858d59bd11d4647#code"
+  },
+  {
+    "name": "PromoteReferenceModule",
+    "address": "0x592BC0234420fA8b023f29775a7aE44a57592c62",
+    "requiresUserFunds": true,
+    "blockExplorerLink": "https://polygonscan.com/address/0x592BC0234420fA8b023f29775a7aE44a57592c62#code"
   }
 ]
